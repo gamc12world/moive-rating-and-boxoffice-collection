@@ -12,7 +12,7 @@ const dropdown=document.querySelector('.dropdown')
 const resultswrapper=document.querySelector('.results')
 const request = async (search) => {
   const data = await axios.get("http://www.omdbapi.com/", {
-    params: { apikey: "d9835cc5", s: search },
+    params: { apikey: "2f35ac16", s: search },
   });
   if(data.data.Error){
     return []
